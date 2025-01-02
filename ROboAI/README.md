@@ -1,8 +1,17 @@
-# React + Vite
+# RoboAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RoboAI is a React application built with Vite that integrates with Google's Generative AI to control a robotic ARM. The application allows users to interact with the AI by sending text prompts and capturing images from their webcam. The AI responds with JSON data containing coordinates and operations for the robotic ARM.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Webcam Integration**: Capture images directly from your webcam.
+- **AI Interaction**: Send text prompts and receive AI-generated responses.
+- **Real-time Video Streaming**: Stream video from your webcam.
+- **Responsive Design**: User-friendly interface with responsive design.
+
+## Setup
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/yourusername/RoboAI.git
+   cd RoboAI
